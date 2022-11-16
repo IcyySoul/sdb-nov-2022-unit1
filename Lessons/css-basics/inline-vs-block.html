@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline vs block examples</title>
+    <link rel="stylesheet" href="inline-vs-block.css">
+</head>
+<body>
+    <section>
+        <!-- Block elements-->
+        <h2>Block Elements</h2>
+        <!-- 
+          If you find yourself repeating styling code you need to make it a class
+        -->
+        <P class="paragraph">This is a paragraph block</P>
+        <ul>
+          <li>Block level element always start a new line </li>
+          <li>It will take up entire width of the parent</li>
+        </ul>
+    </section>
+    <section>
+
+      <!-- Inline elements-->
+      <hr>
+      <h2>Inline elements</h2>
+      <ul>
+        <li>An inline element does not start a new line</li>
+        <li>An inline element only takes up as much width as nescessary</li>
+        <li></li>
+      </ul>
+      <a href="#" class="paragraph">George Washington</a>
+      <h3>Common tags that are inline</h3>
+      <ul>
+        <il> span</il>
+        <il>strong</il>
+        <li>em</li>
+        <li>i tags</li>
+      </ul>
+    </section>
+    <section> 
+      <!-- Inline block-->
+      <hr>
+      <h2>Inline Block</h2>
+      <div>
+        <a href="#">Submit</a>
+        <a href="#">Clear</a>
+      </div>
+      <a href="#">Outside the DIV</a>
+    </section>
+</body>
+</html>
