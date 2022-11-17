@@ -1,0 +1,68 @@
+.box{
+    background-color: navy;
+    color:aliceblue;
+    font-size: 30px;
+    border-radius:3px;
+}
+
+.wrapper{
+    display:grid;
+    gap:10px 20px;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 100px auto auto;
+    grid-template-areas: 
+    "header header header"
+    "nav nav2 nav3"
+    "hero hero hero"
+    "content content2 content3"
+    "content4 content5 content6"
+    "Footer Footer Footer"
+    ;
+}
+
+.header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+.nav2{
+    grid-area: nav2;
+}
+
+.nav3{
+    grid-area: nav3;
+}
+
+.hero{
+    grid-area: hero;
+}
+
+.content{
+    grid-area: content ;
+}
+
+.content2{
+    grid-area: content2;
+}
+
+.content3{
+    grid-area: content3 ;
+}
+
+.content4{
+    grid-area: content4;
+}
+
+.content5{
+    grid-area: content5 ;
+}
+
+.content6{
+    grid-area: content6;
+}
+
+.footer{
+    grid-area: Footer ;
+}
