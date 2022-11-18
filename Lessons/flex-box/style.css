@@ -1,0 +1,17 @@
+.container{
+    border:5px solid #ffcc5c;
+    display:flex;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+.container > div{
+    flex:1;
+}
+
+.container > .about{
+    flex:3;
+}
+*/

@@ -1,68 +1,49 @@
-.box{
-    background-color: navy;
-    color:aliceblue;
-    font-size: 30px;
-    border-radius:3px;
+:root{
+    background-color: cadetblue;
+    border:2px solid black
 }
 
-.wrapper{
-    display:grid;
-    gap:10px 20px;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 100px auto auto;
+.wrapper-header{
+    display: grid;
+    gap: .5rem;
     grid-template-areas: 
     "header header header"
-    "nav nav2 nav3"
+    "nav nav nav"
     "hero hero hero"
-    "content content2 content3"
-    "content4 content5 content6"
-    "Footer Footer Footer"
+    "content content content"
+    "content content content"
     ;
 }
 
-.header{
-    grid-area: header;
+.wrapper-hero{
+
 }
 
-.nav{
+header{
+    grid-area:header;
+    text-transform: uppercase;
+    font-size:45px;
+    text-align: center;
+}
+
+nav{
     grid-area: nav;
-}
-.nav2{
-    grid-area: nav2;
-}
-
-.nav3{
-    grid-area: nav3;
-}
-
-.hero{
-    grid-area: hero;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: orchid;
+    border: 1px solid black;
+    text-align: center;
+    padding:1rem;
+    font-size:20px;
 }
 
-.content{
-    grid-area: content ;
+.hero > img{
+    grid-area:hero;
+    width:;
+    max-height:400px;
 }
 
-.content2{
-    grid-area: content2;
-}
-
-.content3{
-    grid-area: content3 ;
-}
-
-.content4{
-    grid-area: content4;
-}
-
-.content5{
-    grid-area: content5 ;
-}
-
-.content6{
-    grid-area: content6;
-}
-
-.footer{
-    grid-area: Footer ;
+content{
+    grid-area: content;
 }

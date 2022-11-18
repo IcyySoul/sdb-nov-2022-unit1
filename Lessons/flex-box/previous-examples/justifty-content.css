@@ -1,0 +1,21 @@
+.container{
+    border:5px solid #ffcc5c;
+    display:flex;
+    justify-content: space-around;
+}
+
+/* 
+
+justify-content for flex
+
+flex-start(default) "puts on left side"
+flex-end "puts on right side"
+center "puts in center"
+
+space creates different spaces
+
+space-around 
+space-between
+space-evenly
+
+*/
